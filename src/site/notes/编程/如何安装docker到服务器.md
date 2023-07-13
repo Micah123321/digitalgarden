@@ -2,7 +2,9 @@
 {"dg-publish":true,"permalink":"/编程/如何安装docker到服务器/","created":"","updated":""}
 ---
 
+
 # 判断环境
+
 输入`uname -r`查看内核版本
 `3.10.0-1062.18.1.el7.x86_64`
 
@@ -25,6 +27,7 @@ CENTOS_MANTISBT_PROJECT_VERSION="7"
 REDHAT_SUPPORT_PRODUCT="centos"
 REDHAT_SUPPORT_PRODUCT_VERSION="7"
 ```
+
 这里为centos 7 64x版本
 
 # 安装指令
