@@ -7,6 +7,8 @@
 
 目前提供 ` https://deeplx-micah123321.cloud.okteto.net/translate ` 使用
 
+额外提供`https://mdeeplx-micah123321.cloud.okteto.net/translate` 注意两个提供链接不一样的
+
 # vps-docker部署
 
 ## 准备
