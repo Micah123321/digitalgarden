@@ -28,3 +28,26 @@ docker run -itd -p 8081:1188 missuo/deeplx:latest
 运行成功后显示一串容器id值
 
 此时你专属的deeplx的api地址就为`http://111.111.111.111:8081/translate`
+
+# okteto 容器部署
+
+## 准备
+
+- github账号一个
+- 每24小时内存在用户使用接口,不然会清空数据
+
+## 部署
+
+1. github fork 项目 [OwO-Network/DeepLX: DeepL Free API (No TOKEN required) --- OwO-Network/DeepLX：DeepL 免费 API（无需 TOKEN） (github.com)](https://github.com/OwO-Network/DeepLX)![image.png](https://www.ake1.com/mkoss/2023-07-13/d79046d6.png)
+
+2. 打开Okteto [Okteto --- 八位组](https://cloud.okteto.com/login) 使用github登录![image.png](https://www.ake1.com/mkoss/2023-07-13/1289d000.png)
+
+3. ![image.png](https://www.ake1.com/mkoss/2023-07-13/d3c0c5b6.png)
+
+4. ![image.png](https://www.ake1.com/mkoss/2023-07-13/09be1304.png)
+
+5. 点击部署 ![image.png](https://www.ake1.com/mkoss/2023-07-13/46ccb24b.png)
+
+
+- 接口连接为 `https://deeplx-micah123321.cloud.okteto.net/translate`
+- 请根据你的名字修改3级域名
