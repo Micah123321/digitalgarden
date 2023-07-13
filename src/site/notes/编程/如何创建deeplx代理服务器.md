@@ -3,6 +3,10 @@
 ---
 
 
+# 临时提供api
+
+目前提供 ` https://deeplx-micah123321.cloud.okteto.net/translate ` 使用
+
 # vps-docker部署
 
 ## 准备
@@ -47,7 +51,6 @@ docker run -itd -p 8081:1188 missuo/deeplx:latest
 4. ![image.png](https://www.ake1.com/mkoss/2023-07-13/09be1304.png)
 
 5. 点击部署 ![image.png](https://www.ake1.com/mkoss/2023-07-13/46ccb24b.png)
-
 
 - 接口连接为 `https://deeplx-micah123321.cloud.okteto.net/translate`
 - 请根据你的名字修改3级域名
